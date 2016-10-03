@@ -145,10 +145,50 @@ img {
   bottom: 20px;
 }
 
-.box {
-  fill: green;
+.rectangle {
+  background-color: #fff;
+  width: 20em;
+  height: 20em;
+  display: inline-block;
+  margin: auto;
 }
 
-.box:hover {
-  fill: limegreen;
+.rectangle2 {
+  background-color: #fff;
+  width: 20em;
+  height: 20em;
+  display: inline-block;
+  margin: auto;
 }
+
+.rectangle3 {
+  background-color: #fff;
+  width: 40em;
+  height: 15em;
+  display: inline-block;
+  margin: auto;
+  left: 40%;
+  position: absolute;
+}
+
+.rectangle4 {
+  background-color: #fff;
+  width: 20em;
+  height: 20em;
+  display: inline-block;
+  margin: auto;
+}
+
+.effect {
+  transition: all 500ms ease-in-out;
+  opacity: .5;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .9);
+}
+
+.effect:hover {
+  background-color: #fff;
+  opacity: .7;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, .2);
+}
+
+
