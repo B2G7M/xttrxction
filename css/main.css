@@ -35,8 +35,12 @@ ul {
 
 /*Navigation Bar End*/
 
+
+
 img {
   max-width: 200px;
+  margin: 10px;
+  transition: 2s ease;
 }
 
 /*vomit/gallery*/
@@ -47,15 +51,11 @@ img {
   text-align: center;
 }
 
-.galleryitem {
-  margin: 10px;
-  transition: 2s ease;
-}
-
 .galleryitem:hover {
-  transform: rotate(10px);
+    -ms-transform: rotate(4deg); /* IE 9 */
+    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
 }
-
 
 
 
