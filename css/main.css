@@ -1,33 +1,61 @@
 html {
-  background-color: #000;
-  color: #fff;
+  background-color: #fff;
+  color: #f2f2f2;
   font-family: 'Space Mono', monospace;
 }
 
 h1 {
   text-align: center;
   font-weight: 400;
+  margin: 0.5em;
+  color: rgb(255, 82, 82);
 }
+
+/*Navigation Bar*/
 
 li {
   list-style: none;
+  margin: 0.25em;
 }
 
 a {
     text-decoration: none;
-    color: #fff;
-    transition: 0.4s ease
+    color: #f2f2f2;
+    transition: 0.4s ease;
 }
 
 a:hover {
-  color: #000;
+  color: #e6e6e6;
 }
-
 
 ul {
   padding-left: 0;
   text-align: center;
 }
+
+/*Navigation Bar End*/
+
+img {
+  max-width: 200px;
+}
+
+/*vomit/gallery*/
+
+.gallery {
+  max-width: 700px;
+  margin: auto;
+  text-align: center;
+}
+
+.galleryitem {
+  margin: 10px;
+  transition: 2s ease;
+}
+
+.galleryitem:hover {
+  transform: rotate(10px);
+}
+
 
 
 
