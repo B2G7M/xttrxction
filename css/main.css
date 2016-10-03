@@ -6,6 +6,7 @@ html {
 
 .wrapper {
   margin: 1em;
+  justify-content: flex-start | flex-end | center | space-between | space-around;
 }
 
 h1 {
@@ -166,9 +167,6 @@ img {
   width: 40em;
   height: 15em;
   display: inline-block;
-  margin: auto;
-  left: 40%;
-  position: absolute;
 }
 
 .rectangle4 {
