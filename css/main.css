@@ -12,7 +12,7 @@ html {
 h1 {
  /* text-align: center;*/
   font-weight: 400;
-  margin: 0.5em;
+  margin: 0.5em 0 0.5em 0.5em;
   color: #ff5c33;
   clear: none;
   display: inline;
@@ -21,16 +21,17 @@ h1 {
 /*Navigation Bar*/
 li {
   list-style: none;
-  margin: 0.25em;
+  margin: 0.02em;
   display: inline;
+  font-size: 1em;
 }
 
 a {
     text-decoration: none;
     color: #ff704d;
     transition: 0.6s ease;
-    display: inline;
-    padding: 0.5em 0.75em 0.5em 0.75em;
+    display: inline-block;
+    padding: 0.2em 0.5em 0.2em 0.5em;
     border-radius: 3px;
 
 }
@@ -48,7 +49,6 @@ ul {
 }
 
 nav {
-  display: inline;
   text-align: right;
   float: right;
   margin-top: 1em;
@@ -93,15 +93,8 @@ img {
   fill: #f2f2f2;
 }
 
-.polaroid {
-  margin: 0;
-  padding: 10px;
-  width: 250px;
-
-  background-color: #fff;
-  border-radius: 4px;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, .5);
-  transition: all 500ms ease-in-out;
+.card {
+  transition: all 3s ease-in-out;
   position: relative;
 }
 
@@ -126,10 +119,10 @@ img {
   top: 0px;
 }
 
-.polaroid:hover {
-  transform: rotate(0deg);
+.card:hover {
+  transform: rotate(720deg);
   z-index: 1000;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, .3);
+ /* box-shadow: 1px 1px 20px rgba(0, 0, 0, .3);*/
 
 }
 
@@ -148,8 +141,8 @@ img {
 
 .rectangle {
   background-color: #fff;
-  width: 20em;
-  height: 20em;
+  width: 5.2em;
+  height: 5.2em;
   display: inline-block;
   margin: auto;
 }
@@ -178,15 +171,21 @@ img {
 }
 
 .effect {
-  transition: all 500ms ease-in-out;
-  opacity: .5;
+  opacity: 0.1;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .9);
 }
 
 .effect:hover {
   background-color: #fff;
-  opacity: .7;
+  opacity: 1;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, .2);
+}
+
+@media only screen and (min-width: 38em) {
+
+  li {
+    margin: 0.05em;
+  }
 }
 
 
