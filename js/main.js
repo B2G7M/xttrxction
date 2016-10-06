@@ -1,13 +1,10 @@
-var audio = document.getElementsByTagName("audio")[0];
-audio.play();
+var audios = $("audio")
+var numaudio = audios.length
 
-// or with an ID
+// var audio = $("#mySoundClip")[0];
+$(".rectangle").mouseenter(function() {
 
-var audio = document.getElementById("mySoundClip");
-audio.play();
-
-var audio = $("#mySoundClip")[0];
-$("nav a").mouseenter(function() {
-  audio.play();
+  var randaudio = Math.floor (Math.random() * (numaudio - 0) + 0);
+  audios.eq(randaudio).get(0).muted = false
 });
 
