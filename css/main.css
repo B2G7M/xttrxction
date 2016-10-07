@@ -1,7 +1,37 @@
 html {
-  background-color: #f2f2f2;
-  color: #595959;
-  font-family: 'Space Mono', monospace;
+
+/*background-color: #f2f2f2;*/
+color: #595959;
+font-family: 'Space Mono', monospace;
+
+background: linear-gradient(156deg, #ffffff, #799ceb);
+background-size: 400% 400%;
+
+-webkit-animation: AnimationName 22s ease infinite;
+-moz-animation: AnimationName 22s ease infinite;
+-o-animation: AnimationName 22s ease infinite;
+animation: AnimationName 22s ease infinite;
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-o-keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
 }
 
 .wrapper {
@@ -94,33 +124,14 @@ img {
 }
 
 .card {
-  transition: all 3s ease-in-out;
+  transition: all 200ms ease-in-out;
   position: relative;
 }
 
-.polaroid:nth-child(1) {
-  z-index: 2;
-  transform: rotate(0deg);
-  top: 50px;
-  left: 5px;
-}
-
-.polaroid:nth-child(2) {
-  z-index: 3;
-  top: 80px;
-  left: 600px;
-  transform: rotate(0deg);
-}
-
-.polaroid:nth-child(3) {
-  transform: rotate(0deg);
-  z-index: 4;
-  left: 690px;
-  top: 0px;
-}
 
 .card:hover {
-  transform: rotate(720deg);
+  /*transform: rotate(720deg);*/
+  transform: scale(.9);
   z-index: 1000;
  /* box-shadow: 1px 1px 20px rgba(0, 0, 0, .3);*/
 
@@ -147,38 +158,26 @@ img {
   margin: auto;
 }
 
-.rectangle2 {
-  background-color: #fff;
-  width: 20em;
-  height: 20em;
-  display: inline-block;
-  margin: auto;
-}
-
-.rectangle3 {
-  background-color: #fff;
-  width: 40em;
-  height: 15em;
-  display: inline-block;
-}
-
-.rectangle4 {
-  background-color: #fff;
-  width: 20em;
-  height: 20em;
-  display: inline-block;
-  margin: auto;
-}
 
 .effect {
-  opacity: 0.1;
+  opacity: 0.2;
   box-shadow: 1px 1px 5px rgba(0, 0, 0, .9);
 }
 
 .effect:hover {
   background-color: #fff;
-  opacity: 1;
+  opacity: 0;
   box-shadow: 1px 1px 20px rgba(0, 0, 0, .2);
+}
+
+.special {
+  background-color: #fff;
+}
+
+.special:hover {
+  background-color: #ff704d;
+  opacity: 1;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, .2)
 }
 
 @media only screen and (min-width: 38em) {
