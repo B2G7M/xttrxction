@@ -1,0 +1,57 @@
+.b-grey {
+  background-color: grey;
+}
+
+.grey-op-20 {
+  color: grey;
+  opacity: .8;
+}
+
+.grey {
+
+  color: grey;
+}
+
+.b-grey-drk {
+  background-color: #e2e2e2;
+}
+
+.b-grey-drkst {
+  background-color: #ccc;
+}
+
+.b-grey-lt {
+  background-color: #efefef;
+}
+
+.text-color-orange {
+  color: #FF5033;
+}
+
+.white {
+  color: #fff;
+}
+
+.b-color-orange {
+  background-color: #FF5033;
+}
+
+.button {
+  text-decoration: none;
+}
+
+.blue {
+  color: #a5cdd4;
+}
+
+.mint {
+  color: #00ffaa;
+}
+
+.blue-mint {
+  color: #5affe3;
+}
+
+.orange {
+  color: #ff704d;
+}
