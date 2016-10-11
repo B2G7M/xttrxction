@@ -1,0 +1,48 @@
+.work1 {
+
+  background-color: #fff;
+  width: 20em;
+  height: 30em;
+  left: 1em;
+  top: 5em;
+  opacity: .3;
+  position: absolute;
+  transition: 400ms ease;
+
+}
+
+.work1:hover {
+
+  width: 20em;
+  height: 25em;
+  left: 4em;
+  top: 10em;
+  opacity: 1;
+  position: absolute;
+
+}
+
+.work2 {
+
+  background-color: #fff;
+  width: 5em;
+  height: 5em;
+  left: 30em;
+  top: 20em;
+  opacity: .3;
+  position: absolute;
+  transition: 400ms ease;
+
+}
+
+.work2:hover {
+
+  width: 9em;
+  height: 10em;
+  left: 27em;
+  top: 17em;
+  opacity: 1;
+  position: absolute;
+
+}
+

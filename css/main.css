@@ -1,15 +1,16 @@
 html {
 
-  color: #595959;
+  color: #fff;
   font-family: 'Space Mono', monospace;
-  background: linear-gradient(156deg, #ffffff, #d0dcf6);
+
+  background: linear-gradient(150deg, #fff, #d9d9d9);
   background-size: 800% 800%;
 
 
-  -webkit-animation: AnimationName 10s ease infinite;
-  -moz-animation: AnimationName 10s ease infinite;
-  -o-animation: AnimationName 10s ease infinite;
-  animation: AnimationName 10s ease infinite;
+  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  -o-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
 }
 
     @-webkit-keyframes AnimationName {
@@ -30,18 +31,26 @@ html {
 
 
 
+
 .wrapper {
   margin: 1em;
   justify-content: flex-start | flex-end | center | space-between | space-around;
 }
 
 h1 {
- /* text-align: center;*/
+  text-align: center;
   font-weight: 400;
   margin: 0.5em 0 0.5em 0.5em;
-  color: #ff5c33;
+  /*color: #ff5c33;*/
+  color: #404040;
   clear: none;
   display: inline;
+  transition: 800ms ease;
+}
+
+h1:hover {
+  color: #f2f2f2;
+  text-shadow: 0px 0px 10px #040404;
 }
 
 /*Navigation Bar*/
@@ -54,18 +63,22 @@ li {
 
 a {
     text-decoration: none;
-    color: #ff704d;
-    transition: 0.6s ease;
+    /*color: #ff704d;*/
+    color: #404040;
+    opacity: 0.5;
+    transition: 0.5s ease;
     display: inline-block;
     padding: 0.2em 0.5em 0.2em 0.5em;
-    border-radius: 3px;
 
 }
 
 a:hover {
-  background-color: #ff704d;
+ /* background-color: #737373;
   color: #f2f2f2;
-  box-shadow: inset 0px 0px 4px #cc2900;
+  box-shadow: inset 0px 0px 4px #262626;
+  opacity: 1;*/
+  color: #f2f2f2;
+  text-shadow: 0px 0px 10px #040404;
 }
 
 ul {
@@ -75,13 +88,17 @@ ul {
 }
 
 nav {
-  text-align: right;
-  float: right;
+  text-align: center;
+  margin: auto;
   margin-top: 1em;
 
 }
 /*Navigation Bar End*/
 
+/*footer {
+  bottom: 0;
+  position: absolute;
+}*/
 
 img {
   max-width: 200px;
@@ -167,13 +184,15 @@ img {
 }
 
 .special {
-  background-color: #fff;
+  transition: 2s ease;
 }
 
 .special:hover {
-  background-color: #ff704d;
+
+  background-color: #595959;
   opacity: 1;
-  box-shadow: 1px 1px 20px rgba(0, 0, 0, .2)
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, .2);
+  transform: rotate(360deg);
 }
 
 @media only screen and (min-width: 38em) {
@@ -181,6 +200,18 @@ img {
   li {
     margin: 0.05em;
   }
+
+  nav {
+    text-align: right;
+    float: right;
+    margin-top: 1em;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
 }
+
 
 
