@@ -137,7 +137,7 @@ img {
 
 }
 
-.polaroid > img {
+/*.polaroid > img {
   display: block;
   width: 100%;
 }
@@ -148,7 +148,7 @@ img {
   position: absolute;
   left: 33%;
   bottom: 20px;
-}
+}*/
 
 .rectangle {
   background-color: #fff;
