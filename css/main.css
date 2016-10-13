@@ -1,6 +1,6 @@
 html {
 
-  color: #fff;
+  color: #040404;
   font-family: 'Space Mono', monospace;
 
   background: linear-gradient(150deg, #fff, #d9d9d9);
@@ -84,7 +84,7 @@ a:hover {
 ul {
   padding-left: 0;
  /* text-align: center;*/
- display: inline;
+ display: inline-block;
 }
 
 nav {
@@ -195,6 +195,35 @@ img {
   transform: rotate(360deg);
 }
 
+/*a none for "earth" page links*/
+.none {
+    text-decoration: none;
+    /*color: #ff704d;*/
+    opacity: 1;
+    display: inline-block;
+    padding: 0em 0em 0em 0em;
+
+}
+
+.none:hover {
+  box-shadow: inset 0px 0px 4px #fff;
+  color: #fff;
+  background-color: #fff;
+}
+
+figure {
+  display: inline-block;
+  transition: 800ms ease-in-out;
+  color: #fff;
+}
+
+figure:hover {
+  display: inline-block;
+  color: #4d4d4d;
+
+}
+
+
 @media only screen and (min-width: 38em) {
 
   li {
@@ -204,11 +233,15 @@ img {
   nav {
     text-align: right;
     float: right;
-    margin-top: 1em;
+    margin-top: 1.7em;
   }
 
   h1 {
     text-align: left;
+  }
+
+  ul {
+    margin-right: 1em;
   }
 
 }
