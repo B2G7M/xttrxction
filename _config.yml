@@ -1,0 +1,3 @@
+markdown: redcarpet
+baseurl: /xttrxction/xttrxction
+exclude: ['README.md']

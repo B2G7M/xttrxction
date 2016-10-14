@@ -1,0 +1,271 @@
+html {
+
+  color: #040404;
+  font-family: 'Space Mono', monospace;
+
+  background: linear-gradient(150deg, #fff, #d9d9d9);
+  background-size: 800% 800%;
+}
+
+/*  -webkit-animation: AnimationName 20s ease infinite;
+  -moz-animation: AnimationName 20s ease infinite;
+  -o-animation: AnimationName 20s ease infinite;
+  animation: AnimationName 20s ease infinite;
+}
+
+    @-webkit-keyframes AnimationName {
+    0%{background-position:0% 28%}
+    50%{background-position:100% 73%}
+    100%{background-position:0% 28%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 28%}
+    50%{background-position:100% 73%}
+    100%{background-position:0% 28%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 28%}
+    50%{background-position:100% 73%}
+    100%{background-position:0% 28%}
+}*/
+
+
+
+
+.wrapper {
+  margin: 1em;
+  justify-content: flex-start | flex-end | center | space-between | space-around;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 400;
+  margin: 0.5em 0 0.5em 0.5em;
+  /*color: #ff5c33;*/
+  color: #404040;
+  clear: none;
+  display: inline;
+  transition: 800ms ease;
+}
+
+h1:hover {
+  color: #f2f2f2;
+  text-shadow: 0px 0px 10px #040404;
+}
+
+/*Navigation Bar*/
+li {
+  list-style: none;
+  margin: 0.02em;
+  display: inline;
+  font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+    /*color: #ff704d;*/
+    color: #404040;
+    opacity: 0.5;
+    transition: 0.5s ease;
+    display: inline-block;
+    padding: 0.2em 0.5em 0.2em 0.5em;
+
+}
+
+a:hover {
+  background-color: #737373;
+  color: #f2f2f2;
+  box-shadow: inset 0px 0px 4px #262626;
+  opacity: 1;
+  /*color: #f2f2f2;
+  text-shadow: 0px 0px 10px #040404;*/
+}
+
+ul {
+  padding-left: 0;
+ /* text-align: center;*/
+ display: inline-block;
+}
+
+nav {
+  text-align: center;
+  margin: auto;
+  margin-top: 1em;
+
+}
+/*Navigation Bar End*/
+
+/*footer {
+  bottom: 0;
+  position: absolute;
+}*/
+
+img {
+  max-width: 200px;
+  margin: 10px;
+  transition: 2s ease;
+}
+
+/*vomit/gallery*/
+
+.gallery {
+  max-width: 700px;
+  margin: auto;
+  margin-top: 2em;
+  text-align: center;
+  fill: #000;
+}
+
+.galleryitem:hover {
+    -ms-transform: rotate(4deg); /* IE 9 */
+    -webkit-transform: rotate(4deg); /* Chrome, Safari, Opera */
+    transform: rotate(4deg);
+}
+
+.center {
+  text-align: center;
+}
+
+
+.circle {
+  transition: 0.4s ease;
+}
+
+.circle:hover {
+  box-shadow: 0px 0px 4px #000;
+  fill: #f2f2f2;
+}
+
+.card {
+  transition: all 200ms ease-in-out;
+  position: relative;
+}
+
+
+.card:hover {
+  /*transform: rotate(720deg);*/
+  transform: scale(.9);
+  z-index: 1000;
+ /* box-shadow: 1px 1px 20px rgba(0, 0, 0, .3);*/
+
+}
+
+/*.polaroid > img {
+  display: block;
+  width: 100%;
+}
+
+.polaroid > figcaption {
+  color: #fff;
+  text-shadow: 1px 1px 3px #000;
+  position: absolute;
+  left: 33%;
+  bottom: 20px;
+}*/
+
+.rectangle {
+  background-color: #fff;
+  width: 5.2em;
+  height: 5.2em;
+  display: inline-block;
+  margin: auto;
+}
+
+
+.effect {
+  opacity: 0.2;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, .9);
+}
+
+.effect:hover {
+  background-color: #fff;
+  opacity: 0;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, .2);
+}
+
+.special {
+  transition: 2s ease;
+}
+
+.special:hover {
+
+  background-color: #595959;
+  opacity: 1;
+  box-shadow: 1px 1px 20px rgba(0, 0, 0, .2);
+  transform: rotate(360deg);
+}
+
+/*a none for "earth" page links*/
+.none {
+    text-decoration: none;
+    /*color: #ff704d;*/
+    opacity: 1;
+    display: inline-block;
+    padding: 0em 0em 0em 0em;
+
+}
+
+.none:hover {
+  box-shadow: inset 0px 0px 4px #fff;
+  color: #fff;
+  background-color: #fff;
+}
+
+figure {
+  display: inline-block;
+  transition: 800ms ease-in-out;
+  color: #fff;
+}
+
+figure:hover {
+  display: inline-block;
+  color: #4d4d4d;
+
+}
+
+/*default black*/
+
+.white {
+  color: #f2f2f2;
+}
+
+.black {
+  background-color: #1a1a1a;
+}
+
+.dbnav {
+  color: #f2f2f2;
+}
+
+.dbnav:hover {
+  color: #000;
+  background-color: #f2f2f2;
+  box-shadow: inset 0px 0px 4px #262626;
+
+}
+
+
+@media only screen and (min-width: 38em) {
+
+  li {
+    margin: 0.05em;
+  }
+
+  nav {
+    text-align: right;
+    float: right;
+    margin-top: 1.7em;
+  }
+
+  h1 {
+    text-align: left;
+  }
+
+  ul {
+    margin-right: 1em;
+  }
+
+}
+
+
+
