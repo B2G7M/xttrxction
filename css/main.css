@@ -223,6 +223,27 @@ figure:hover {
 
 }
 
+/*default black*/
+
+.white {
+  color: #f2f2f2;
+}
+
+.black {
+  background-color: #1a1a1a;
+}
+
+.dbnav {
+  color: #f2f2f2;
+}
+
+.dbnav:hover {
+  color: #000;
+  background-color: #f2f2f2;
+  box-shadow: inset 0px 0px 4px #262626;
+
+}
+
 
 @media only screen and (min-width: 38em) {
 

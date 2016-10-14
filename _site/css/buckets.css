@@ -20,6 +20,16 @@
 
 }
 
+.whitehover:hover {
+
+  background-color: #fff;
+  width: 2em;
+  height: 25em;
+  top: 10em;
+  opacity: 1;
+
+}
+
 .piece {
    margin: auto;
    display: block;
