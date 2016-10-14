@@ -1,2 +1,3 @@
-permalink: pretty
-baseurl: "/basic-jekyll-site"
+markdown: redcarpet
+baseurl: /xttrxction
+exclude: ['README.md']
