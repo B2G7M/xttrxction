@@ -1,3 +1,3 @@
-markdown: redcarpet
-baseurl: xttrxction.ca
+permalink: pretty
+baseurl: /xttrxction
 exclude: ['README.md']
